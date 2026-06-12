@@ -1,56 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Profile</title>
-
-   <style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashfaqul Haque Kabboos | Portfolio</title>
+<style>
 body{
-    background-color: lightblue;
-    text-align: center;
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f7fb;
+    color:#333;
 }
-
-h1{
-    color: darkblue;
-    font-size: 50px;
+header{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
 }
-
+nav{
+    background:#1e293b;
+    text-align:center;
+    padding:12px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:25px;
+}
+.card{
+    background:white;
+    padding:20px;
+    margin:15px 0;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
 h2{
-    color: red;
+    color:#0f172a;
 }
-
-p{
-    color: green;
-    font-size: 20px;
+.btn{
+    display:inline-block;
+    padding:12px 20px;
+    margin:5px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
 }
-
-button{
-    background-color: blue;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    font-size: 18px;
+.btn:hover{
+    background:#dc2626;
 }
-
-button:hover{
-    background-color: red;
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:20px;
 }
 </style>
-
 </head>
 <body>
 
-    <h1>My Name Is Kabboos</h1>
+<header>
+<h1>Ashfaqul Haque Kabboos</h1>
+<p>Professional CAD Drafter | Web Developer | AI Solutions Specialist</p>
+<a class="btn" href="https://wa.me/8801886267906">WhatsApp Me</a>
+<a class="btn" href="mailto:ashfaqul005@gmail.com">Email Me</a>
+<a class="btn" href="https://github.com/kabbooss">GitHub</a>
+</header>
 
-    <h2>About Me</h2>
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
 
-    <p>I am learning Web Development.</p>
+<section id="about">
+<div class="card">
+<h2>About Me</h2>
+<p>I provide high-quality professional services with fast delivery, accuracy, and customer satisfaction.</p>
+</div>
+</section>
 
-    <p>I live in Bangladesh.</p>
+<section id="services">
+<div class="card">
+<h2>Web Development</h2>
+<ul>
+<li>Portfolio Websites</li>
+<li>Business Websites</li>
+<li>Landing Pages</li>
+<li>Responsive Design</li>
+<li>GitHub Pages Deployment</li>
+</ul>
+</div>
 
-    <p>I want to become a Full Stack Developer.</p>
-<a href="https://github.com/kabbooss">
-    <button>Visit My GitHub</button>
-</a>
+<div class="card">
+<h2>PDF & Document Services</h2>
+<ul>
+<li>PDF Editing & Creation</li>
+<li>PDF to AutoCAD DXF/DWG</li>
+<li>Certificate Editing</li>
+<li>Image to Word Conversion</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>AI Services</h2>
+<ul>
+<li>Photo to AI Video</li>
+<li>Text to Speech</li>
+<li>Speech to Text</li>
+<li>AI Dubbing</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Engineering & CAD Drafting</h2>
+<ul>
+<li>AutoCAD 2D Drafting</li>
+<li>SolidWorks 3D Modeling</li>
+<li>Laser Cutting Drawings</li>
+<li>Manufacturing Documentation</li>
+</ul>
+</div>
+</section>
+
+<section id="projects">
+<div class="card">
+<h2>Projects</h2>
+<p>Portfolio Website</p>
+<p>PDF to CAD Conversion</p>
+<p>AI Video Projects</p>
+<p>Engineering Drafting Projects</p>
+</div>
+</section>
+
+<section id="contact">
+<div class="card">
+<h2>Contact</h2>
+<p>WhatsApp: +8801886267906</p>
+<p>Email: ashfaqul005@gmail.com</p>
+<p>GitHub: github.com/kabbooss</p>
+</div>
+</section>
+
+<footer>
+<p>Fast Response • Professional Quality • Customer Satisfaction</p>
+</footer>
 
 </body>
 </html>
