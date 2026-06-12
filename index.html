@@ -3,154 +3,257 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ashfaqul Haque Kabboos | Portfolio</title>
+<title>Kabboos Portfolio</title>
+
 <style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
 body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#f4f7fb;
-    color:#333;
+background:#0f172a;
+color:white;
+line-height:1.6;
 }
+
 header{
-    background:#0f172a;
-    color:white;
-    text-align:center;
-    padding:40px 20px;
+text-align:center;
+padding:60px 20px;
+background:#1e293b;
 }
-nav{
-    background:#1e293b;
-    text-align:center;
-    padding:12px;
+
+header h1{
+font-size:50px;
+margin-bottom:10px;
 }
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 15px;
-    font-weight:bold;
+
+header p{
+font-size:20px;
+color:#cbd5e1;
 }
-section{
-    max-width:1000px;
-    margin:auto;
-    padding:25px;
-}
-.card{
-    background:white;
-    padding:20px;
-    margin:15px 0;
-    border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
-}
-h2{
-    color:#0f172a;
-}
+
 .btn{
-    display:inline-block;
-    padding:12px 20px;
-    margin:5px;
-    background:#2563eb;
-    color:white;
-    text-decoration:none;
-    border-radius:6px;
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:8px;
 }
+
 .btn:hover{
-    background:#dc2626;
+background:#1d4ed8;
 }
+
+section{
+padding:50px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+color:#38bdf8;
+}
+
+.card-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+}
+
+.card h3{
+margin-bottom:10px;
+color:#60a5fa;
+}
+
+ul{
+padding-left:20px;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+display:inline-block;
+margin:10px;
+padding:12px 20px;
+background:#22c55e;
+color:white;
+text-decoration:none;
+border-radius:8px;
+}
+
 footer{
-    background:#0f172a;
-    color:white;
-    text-align:center;
-    padding:20px;
+text-align:center;
+padding:20px;
+background:#1e293b;
+margin-top:40px;
 }
+
 </style>
+
 </head>
 <body>
 
 <header>
-<h1>Ashfaqul Haque Kabboos</h1>
-<p>Professional CAD Drafter | Web Developer | AI Solutions Specialist</p>
-<a class="btn" href="https://wa.me/8801886267906">WhatsApp Me</a>
-<a class="btn" href="mailto:ashfaqul005@gmail.com">Email Me</a>
-<a class="btn" href="https://github.com/kabbooss">GitHub</a>
+<h1>KM Ashfaqul Haque Kabboos</h1>
+<p>Professional Drafter | Web Developer | AI & Automation Specialist</p>
+
+<a class="btn" href="https://github.com/kabbooss" target="_blank">
+Visit My GitHub
+</a>
+
 </header>
 
-<nav>
-<a href="#about">About</a>
-<a href="#services">Services</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</nav>
+<section>
 
-<section id="about">
-<div class="card">
 <h2>About Me</h2>
-<p>I provide high-quality professional services with fast delivery, accuracy, and customer satisfaction.</p>
-</div>
+
+<p>
+I provide high-quality professional services with fast delivery and customer satisfaction.
+Experienced in Engineering Drafting, AutoCAD, SolidWorks, AI Services,
+Web Development, PDF Conversion, Video Editing and Custom Automation.
+</p>
+
 </section>
 
-<section id="services">
+<section>
+
+<h2>My Services</h2>
+
+<div class="card-container">
+
 <div class="card">
-<h2>Web Development</h2>
+<h3>PDF & Document Services</h3>
+<ul>
+<li>PDF Editing</li>
+<li>Certificate Editing</li>
+<li>PDF to Word</li>
+<li>PDF to CAD Conversion</li>
+<li>Document Formatting</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Graphic Design & Photo Editing</h3>
+<ul>
+<li>Photo Retouching</li>
+<li>Background Removal</li>
+<li>AI Restoration</li>
+<li>Banner Design</li>
+<li>Template Design</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>AI Services</h3>
+<ul>
+<li>AI Video Creation</li>
+<li>Text to Voice</li>
+<li>Voice to Text</li>
+<li>AI Dubbing</li>
+<li>AI Voice Generation</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Web Development</h3>
 <ul>
 <li>Portfolio Websites</li>
-<li>Business Websites</li>
-<li>Landing Pages</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
 <li>Responsive Design</li>
-<li>GitHub Pages Deployment</li>
 </ul>
 </div>
 
 <div class="card">
-<h2>PDF & Document Services</h2>
+<h3>Coding & Automation</h3>
 <ul>
-<li>PDF Editing & Creation</li>
-<li>PDF to AutoCAD DXF/DWG</li>
-<li>Certificate Editing</li>
-<li>Image to Word Conversion</li>
+<li>JavaScript Projects</li>
+<li>Trading Bots</li>
+<li>Automation Tools</li>
+<li>Windows Troubleshooting</li>
+<li>Software Support</li>
 </ul>
 </div>
 
 <div class="card">
-<h2>AI Services</h2>
+<h3>Engineering & CAD Drafting</h3>
 <ul>
-<li>Photo to AI Video</li>
-<li>Text to Speech</li>
-<li>Speech to Text</li>
-<li>AI Dubbing</li>
-</ul>
-</div>
-
-<div class="card">
-<h2>Engineering & CAD Drafting</h2>
-<ul>
-<li>AutoCAD 2D Drafting</li>
-<li>SolidWorks 3D Modeling</li>
+<li>AutoCAD DWG</li>
+<li>DXF Files</li>
 <li>Laser Cutting Drawings</li>
-<li>Manufacturing Documentation</li>
+<li>Tube Laser Drawings</li>
+<li>SolidWorks 3D Modeling</li>
 </ul>
 </div>
+
+</div>
+
 </section>
 
-<section id="projects">
-<div class="card">
+<section>
+
 <h2>Projects</h2>
-<p>Portfolio Website</p>
-<p>PDF to CAD Conversion</p>
-<p>AI Video Projects</p>
-<p>Engineering Drafting Projects</p>
+
+<div class="card-container">
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Personal Portfolio Website hosted on GitHub Pages.</p>
 </div>
+
+<div class="card">
+<h3>Engineering Drafting</h3>
+<p>Production-ready CAD and Laser Cutting Drawings.</p>
+</div>
+
+<div class="card">
+<h3>AI Video Projects</h3>
+<p>AI Voice, Dubbing and Video Automation.</p>
+</div>
+
+</div>
+
 </section>
 
-<section id="contact">
-<div class="card">
-<h2>Contact</h2>
-<p>WhatsApp: +8801886267906</p>
-<p>Email: ashfaqul005@gmail.com</p>
-<p>GitHub: github.com/kabbooss</p>
-</div>
+<section class="contact">
+
+<h2>Contact Me</h2>
+
+<a href="https://wa.me/8801886267906" target="_blank">
+WhatsApp
+</a>
+
+<a href="mailto:ashfaqul005@gmail.com">
+Email
+</a>
+
+<a href="https://github.com/kabbooss" target="_blank">
+GitHub
+</a>
+
 </section>
 
 <footer>
-<p>Fast Response • Professional Quality • Customer Satisfaction</p>
+
+<p>
+Fast Delivery • Professional Quality • Customer Satisfaction
+</p>
+
 </footer>
 
 </body>
